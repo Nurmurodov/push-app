@@ -1,0 +1,47 @@
+@import "../../variables";
+
+.loginPage {
+  background-color: $lightBlue;
+  width: 100vw;
+  padding-top: 100px;
+  min-height: 100vh;
+
+  .loginWrapper {
+    display: block;
+    margin: auto;
+    padding: 20px;
+    width: 700px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 25px #CFD7E8;
+    border-radius: 20px;
+    .title {
+      display: block;
+      text-align: center;
+      margin: 20px auto;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 30px;
+      line-height: 47px;
+      letter-spacing: 0.155em;
+      color: #324567;
+    }
+    .input {
+      display: block;
+      width: 60%;
+      margin: 10px auto;
+    }
+    .link {
+      display: block;
+      width: 60%;
+      margin: 0 auto;
+    }
+    .submitButton {
+      width: 100%;
+      background: $blue;
+      border: 1px solid #E5E5E5;
+      box-sizing: border-box;
+      border-radius: 10px;
+      text-transform: none;
+    }
+  }
+}
